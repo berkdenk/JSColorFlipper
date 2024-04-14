@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f8;
+    color: #333; /* Default text color */
+    line-height: 1.6;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.color {
+    font-weight: bold;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.btn:focus {
+    outline: none; /* Removing default focus outline */
+}
